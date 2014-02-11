@@ -1,0 +1,2110 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.4;
+    font-size: 14px;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+dd, dt {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 25px;
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.home-page.container {
+    padding: 0 25px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-header, .simple-header {
+    overflow: auto;
+
+}
+
+.profile-login {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.hm-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.col80 {
+    width: 80%;
+    float: left;
+}
+
+.col75 {
+    width: 75%;
+    float: left;
+}
+
+.col70 {
+    width: 70%;
+    float: left;
+}
+
+.col66 {
+    float: left;
+    width: 66.6%;
+}
+
+.col60 {
+    width: 60%;
+    float: left;
+}
+
+.col55 {
+    width: 55%;
+    float: left;
+}
+
+.col50 {
+    width: 50%;
+    float: left;
+}
+
+.col45 {
+    width: 45%;
+    float: left;
+}
+
+.col40 {
+    width: 40%;
+    float: left;
+}
+
+.col35 {
+    width: 35%;
+    float: left;
+}
+
+.col33 {
+    width: 33.33%;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.col30 {
+    width: 30%;
+    float: left;
+}
+
+.col25 {
+    width: 25%;
+    float: left;
+}
+
+.col20 {
+    width: 20%;
+    float: left;
+}
+
+.col15 {
+    width: 15%;
+    float: left;
+}
+
+.col10 {
+    width: 10%;
+    float: left;
+}
+
+b, strong {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4 .title, .post-title {
+    font-family: 'AlbertusMTStd';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200%;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 25px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.top-links li {
+    color: #999; /* For non-links in menu */
+    display: inline;
+    margin: 0 4%;
+    padding: 0;
+}
+
+a.current-page {
+    color: red;
+}
+
+.comp-splash-page .top-nav ul {
+    height: 200px;
+}
+
+/*CIRCLE NAV*/
+
+.circle-nav li {
+    background-image: url('/images/home-circle-01.png');
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    background-size: contain;
+    color: #fff;
+    margin: 0 4%;
+    line-height: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle-nav li a {
+    color: #fff;
+}
+
+.circle-nav li span {
+
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 75px;
+}
+
+ul.circle-nav {
+    text-align: center;
+}
+
+.circle-nav li:nth-of-type(2) {
+    background-image: url('/images/home-circle-02.png');
+}
+
+.circle-nav li:nth-of-type(3) {
+    background-image: url('/images/home-circle-03.png');
+}
+
+.circle-nav li:nth-of-type(4) {
+    background-image: url('/images/home-circle-04.png');
+}
+
+/*TOP-RIGHT*/
+
+.circle-timer {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    top: 40px;
+    right: 95px;
+}
+
+.splash-circle-timer {
+    position: absolute;
+    top: 20px;
+    right: 20%;
+}
+
+.top-timer {
+    height: 185px;
+    width: 185px;
+}
+
+.clock-label {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    width: 100%;
+    margin-left: -10px;
+}
+
+/*END TOP-NAV */
+
+/*BODY*/
+
+.hm-top-slideshow {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'AlbertusMTStd';
+    font-weight: normal;
+    font-style: normal;
+    color: red;
+    letter-spacing: 1px;
+    margin-top: 35px;
+}
+
+.hm-slide-nav {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+#preview-title {
+    display: block;
+    text-align: center;
+    min-height: 60px;
+}
+
+a#preview-title {
+    color: red !important;
+}
+
+.hm-top-slideshow p {
+    margin-bottom: 0;
+}
+
+.hm-top-slideshow li {
+    list-style-type: none;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+.left-note-feed {
+    font-size: 80%;
+}
+
+.left-note-feed p a {
+    font-size: 13px;
+}
+
+.note-container {
+    margin: 15px;
+    overflow: auto;
+}
+
+.note-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #000;
+}
+
+.note-content {
+    float: left;
+    max-height: 180px;
+    margin: 0;
+    resize: none;
+}
+
+/*POST*/
+
+.post {
+    margin: 0 auto;
+    max-width: 440px;
+    margin-bottom: 25px;
+}
+
+.hm-top-slideshow li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.editorial-tab, .winner-tab {
+    text-align: center;
+    width: 35%;
+    border: 2px solid #000;
+    float: left;
+    padding: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.editorial-tab:hover, .winner-tab:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.editorial-tab {
+    margin-left: 30%;
+}
+
+.post-info {
+    margin: 25px auto;
+    overflow: auto;
+}
+
+.post-info img {
+    float: left;
+    max-height: 85px;
+    border: 2px solid #000;
+    max-width: 95%;
+}
+
+.post-title {
+    float: left;
+    width: 100%;
+    font-size: 300%;
+    line-height: 1;
+}
+
+.home-page .post-details {
+    float: left;
+}
+
+.home-page .post-details .date {
+    margin-left: 17%;
+}
+
+.clear {
+    clear: both;
+}
+
+.tabs {
+    clear: both;
+}
+
+#tabs .active, #tabs .active a {
+    color: #fff;
+    background: #000;
+}
+
+.post-content {
+    text-align: justify;
+}
+
+.post-content p:first-child {
+    margin-top: 0;
+}
+
+#post-article-space {
+    height: 300px;
+}
+
+.home-page .post-content p:first-child:first-letter {
+    font-size: 200%;
+}
+
+.footer {
+    overflow: auto;
+    font-size: 80%;
+}
+
+.footer .col25 {
+    text-align: center;
+    padding: 5%;
+}
+
+.footer .col25 img {
+    max-height: 3em;
+    vertical-align: middle;
+}
+
+/*INPUTS*/
+
+.search-box {
+    outline: none;
+    border: 2px solid #000;
+    padding: 5px;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    opacity: 0.3;
+    font-family: 'NHaasGroteskTXStd-55Rg', sans-serif;
+}
+
+/****************************************************/
+
+/******************** NOTE SLIDER CONTAINER PAGE /*******************/
+
+/****************************************************/
+
+.write-note-slide {
+    position: fixed;
+    border: 2px solid #000;
+    overflow: auto;
+    display: none;
+    height: 80%;
+    top: 10%;
+    background: #fff;
+}
+
+.write-note-slide .nav {
+    width: 480px;
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform-origin: 0px;
+    -webkit-transform-origin: 0px;
+    -ms-transform-origin: 0px;
+    transform-origin: 0px;
+    position: absolute;
+    margin-left: 45px;
+    position: fixed;
+}
+
+.not-rotate {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform-origin: 0px;
+    -webkit-transform-origin: 0px;
+    -ms-transform-origin: 0px;
+    transform-origin: 0px;
+    position: relative;
+    display: inline-block;
+    font-size: 125%;
+    bottom: 5px;
+}
+
+.write-note-slide .nav .close .not-rotate {
+    right: 15px;
+}
+
+.write-note-slide .nav .notes .not-rotate {
+    left: 25px;
+}
+
+.write-note-slide .nav .close {
+    float: right;
+    padding-right: 15px;
+}
+
+.write-note-slide .nav .notes {
+    padding-left: 15px;
+}
+
+.live-notes {
+    margin-left: 100px;
+    padding: 10px 0;
+    overflow: auto;
+}
+
+.live-note-container {
+    float: left;
+    position: relative;
+    border: 2px solid #000;
+    font-family: 'NHaasGroteskTXStd-55Rg', sans-serif;
+    font-size: 90%;
+    padding: 0.5em;
+    width: 180px;
+    margin: 5px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.live-note-content {
+    clear: both;
+    height: 60px;
+    padding: 5px 5px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+#notes-explanation, #notes-unregistered {
+    display: none;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+#voice-input {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 5px 50px 5px 5px;
+    width: 94%;
+    display: none;
+}
+
+.public-note-main {
+    cursor: pointer;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.note-icon {
+    float: right;
+    cursor: pointer;
+}
+
+.note-icon-left {
+    float: left;
+    cursor: pointer;
+}
+
+.icon-minor {
+    float: left;
+    cursor: pointer;
+}
+
+.bigger-note {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.own-note-public {
+    border: solid 2px red;
+}
+
+/****************************************************/
+
+/******************** ABOUT PAGE /*******************/
+
+/****************************************************/
+
+.about-page p {
+    font-size: 120%;
+}
+
+.about-page .col100 .title {
+    text-align: center;
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 155%;
+}
+
+.about-page .col100 .sub-text {
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'AlbertusMTStd';
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200%;
+    top: -2.7em;
+}
+
+.about-page .col40, .about-page .col60 {
+    padding: 0 15px;
+}
+
+.about-page .about-splat {
+    background-image: url('/images/about-splat.jpg');
+    width: 650px;
+    height: 495px;
+    background-size: contain;
+    position: relative;
+    top: -5em;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-splat-contents {
+    margin: 0 auto;
+    font-size: 120%;
+    font-family: 'AlbertusMTStd';
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    width: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+/****************************************************/
+
+/******************* LOGIN PAGE /******************/
+
+/****************************************************/
+
+.login-page h1 {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    text-align: center;
+}
+
+.login-page .col70 {
+    margin: 0 auto;
+    float: none;
+    /*max-width: 650px;*/
+}
+
+.login-page p {
+    /*font-size: 125%;*/
+    margin: 2em auto;
+}
+
+.login-page .col50 {
+    padding: 0 2em;
+}
+
+.login-page form {
+    text-align: center;
+}
+
+.login-page input {
+    border: 4px solid #000;
+    margin: 1.5em auto;
+    background-color: #fff;
+    outline: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.login-page input.submit {
+    padding: 5px 25px;
+    font-size: 150%;
+    width: auto;
+    text-align: center;
+    display: inline;
+
+}
+
+.submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#generateName {
+    border: solid 2px #000;
+    background: #fff;
+    margin: -1em 0 2em 0;
+}
+
+/****************************************************/
+
+/******************* NEW MEMBER PAGE /******************/
+
+/****************************************************/
+
+.new-member-page input, .new-member-page textarea {
+    border: 4px solid #000;
+    display: block;
+    width: 100%;
+    margin: 1.5em auto;
+    padding: 5px;
+
+}
+
+.new-member-page h1 {
+    text-align: center;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+}
+
+.new-member-page p {
+    max-width: 20em;
+    margin: 1.5em auto;
+    font-size: 110%;
+}
+
+.new-member-page input.back-btn {
+    border: 4px solid #000;
+    display: inline;
+    padding: 5px 35px;
+    font-size: 130%;
+    margin: 1.5em auto;
+    text-align: center;
+    width: 8em;
+    background-color: #000;
+    color: #fff;
+}
+
+.new-member-page .col70 {
+    float: none;
+    margin: 0 auto;
+}
+
+.new-member-page .red {
+    color: red;
+}
+
+.new-member-page form {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.new-member-page .upload-box {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #000;
+    display: inline-block;
+    margin: 1.5em 0;
+    text-align: left;
+    float: left;
+    margin-top: 0;
+}
+
+.new-member-page .upload-text {
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin: 1.5em;
+    opacity: 0.5;
+    height: 50px;
+    line-height: 50px;
+}
+
+/****************************************************/
+
+/******************* PROFILE PAGE /******************/
+
+/****************************************************/
+
+.profile-page .settings {
+    width: 100%;
+    text-align: left;
+    border: 2px solid #000;
+    overflow: auto;
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 50px;
+
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
+    border-left: 4px solid #000;
+}
+
+.profile-page .settings ul {
+    margin: 2em 0;
+}
+
+.settings .entries-tab, .settings .notes-tab, .settings .accounts-tab {
+    padding: 10px;
+    border-bottom: 4px solid #000;
+}
+
+.settings .notes-tab, .settings .accounts-tab {
+    border-right: 4px solid #000;
+}
+
+.settings .active {
+    box-shadow: 0px 0px 0px 4px red inset;
+}
+
+.settings h1 {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+}
+
+.settings li {
+    list-style-type: none;
+    font-size: 150%;
+}
+
+.settings .col66 {
+    padding: 15px;
+    text-align: left;
+}
+
+/*.settings .settings-inside {
+	border: 4px solid #000;
+	overflow: auto;
+}*/
+
+.settings h1, .settings h2, .settings h3 {
+    text-align: left;
+}
+
+.settings input, .settings label {
+    padding: 5px 0;
+    display: block;
+    font-family: 'NHaasGroteskTXStd-55Rg', sans-serif;
+}
+
+.settings input[type="radio"] {
+    display: inline;
+}
+
+.settings label {
+    font-size: 125%;
+}
+
+.settings input, .settings textarea {
+    border: 4px solid #000;
+    margin: 1.5em 0;
+    background-color: #fff;
+    outline: none;
+    max-width: 70%;
+    padding-left: 5px;
+}
+
+.settings input.btn {
+    max-width: 100% !important;
+}
+
+.settings input.update-profile-button {
+    font-size: 150%;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+.counter-col {
+    font-size: 150%;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    margin-bottom: 15px;
+}
+
+.counter-col p {
+    margin-bottom: 0;
+}
+
+.counter {
+    font-size: 100%;
+    text-align: center;
+    border: 4px solid #000;
+    max-width: 100px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.counter-col p {
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.profile-page ol {
+    font-size: 150%;
+    margin-top: 50px;
+}
+
+.profile-page .user-details {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.profile-page .name {
+
+    margin-bottom: 0;
+    font-size: 200%;
+}
+
+.profile-page .quote {
+    margin-top: 0;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    font-size: 120%;
+}
+
+.profile-page .user-details img {
+    border: 4px solid #000;
+}
+
+/****************************************************/
+
+/******************* FOLLOWERS/FOLLOWING PAGE /******************/
+
+/****************************************************/
+
+.followers-page h1, .followers-page {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    text-align: center;
+}
+
+.followers-page p {
+    font-size: 130%;
+}
+
+.followers-page img {
+    border: 4px solid #000;
+}
+
+.followers-page .col33, .followers-page .title {
+    padding-bottom: 50px;
+}
+
+.back-btn {
+    border: 4px solid #000;
+    margin: 1.5em auto;
+    display: block;
+    display: inline;
+    padding: 10px 35px;
+    font-size: 130%;
+}
+
+/****************************************************/
+
+/******************* ARCHIVE PAGE /******************/
+
+/****************************************************/
+
+.archive-page {
+    /*font-size: 120%;*/
+}
+
+.archive-page li, ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.archive-page ul ul {
+    margin: 25px 0;
+}
+
+.archive-page .dates-col {
+    padding-right: 15px;
+}
+
+.archive-page li {
+    font-family: 'NHaasGroteskTXStd-65Md';
+}
+
+.archive-page ul > ul > li {
+    font-family: 'NHaasGroteskTXStd-55Rg';
+}
+
+.archive-page .col100 .title,
+.profile-page .col100 .title {
+    text-align: center;
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 155%;
+}
+
+.archive-page .col100 .sub-text,
+.profile-page .col100 .sub-text {
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'AlbertusMTStd';
+    position: relative;
+    margin: 0 auto;
+    font-size: 200%;
+    top: -2.7em;
+}
+
+.archive-page .col70 {
+    margin-right: 15%;
+}
+
+.archive-page .col70 .col100,
+.profile-page .col100 {
+    margin-bottom: 15px;
+    padding: 15px;
+    float: left;
+    overflow: auto;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.archive-page .col70 .col100 .entry-info,
+.profile-page .entry-info {
+    height: 100%;
+    padding: 15px;
+    border: 4px solid #000;
+    overflow: auto;
+}
+
+.archive-page .col70 .col25,
+.profile-page .col25 {
+    padding: 0 15px 15px 15px;
+}
+
+.triangle-arrow {
+    position: relative;
+    bottom: -10px;
+    left: 10%;
+    margin-left: -12px;
+}
+
+.archive-content {
+    clear: both;
+}
+
+.active-archive-link {
+    font-size: 14px; /* Override .settings rule in user profile entries view */
+}
+
+/****************************************************/
+
+/******************* ARCHIVE POST PAGE /******************/
+
+/****************************************************/
+
+.archive-post-page {
+    text-align: center;
+    margin-top: 3em;
+    /*font-size: 120%;*/
+}
+
+.archive-post-page h1, .archive-post-page .next-post, .archive-post-page .prev-post {
+    font-size: 120%;
+}
+
+.archive-post-page .next-post, .archive-post-page .prev-post {
+    text-align: center;
+    margin-top: 295px;
+    display: block;
+}
+
+.archive-post-page .post-details, .archive-post-page h1 {
+    text-align: center;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+}
+
+.archive-post-page .post-content {
+    max-width: 34em;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.archive-post-page .back-btn {
+    border: 4px solid #000;
+    margin: 1.5em auto;
+    display: block;
+    display: inline;
+}
+
+.archive-post-page .post-title {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    text-align: center;
+    padding: 1.5em 0;
+    font-size: 120%;
+}
+
+.archive-post-page h1:first-of-type {
+    margin-bottom: 0;
+}
+
+.archive-post-page h1:nth-of-type(2) {
+    margin-top: 0;
+}
+
+.archive-post-page .post-details a {
+    text-decoration: underline;
+}
+
+/****************************************************/
+
+/******************* ARCHIVE MASONRY PAGE /******************/
+
+/****************************************************/
+
+.container.archive-masonry {
+    max-width: 2000px;
+    padding-right: 80px;
+}
+
+.archive-masonry-box {
+    margin: 1em auto;
+}
+
+.archive-masonry .archive-masonry-box {
+    font-family: 'NHaasGroteskTXStd-55Rg', sans-serif;
+    font-size: 90%;
+}
+
+.archive-masonry {
+    margin: 0 auto;
+}
+
+.archive-masonry-box .col30 {
+    padding: 0 1em;
+    border: 2px solid #000;
+    width: 250px;
+    margin-bottom: 15px;
+    float: none;
+    text-align: left;
+}
+
+.archive-masonry .col100 .title {
+    text-align: center;
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 155%;
+}
+
+.archive-masonry .col100 .sub-text {
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'AlbertusMTStd';
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200%;
+    top: -2.7em;
+}
+
+.archive-masonry li {
+    font-family: 'NHaasGroteskTXStd-65Md';
+}
+
+.archive-masonry ul > ul {
+    margin: 25px 0;
+}
+
+.archive-masonry ul > ul > li {
+    font-family: 'NHaasGroteskTXStd-55Rg';
+}
+
+.archive-masonry .col80 {
+    text-align: center;
+}
+
+.archive-masonry .btn {
+    padding: 10px 15px;
+    border: 4px solid #000;
+    background-color: #fff;
+    text-align: center;
+    margin: 1em auto;
+    display: inline-block;
+    font-size: 150%;
+}
+
+.shownote-container {
+    max-height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/****************************************************/
+
+/******************* EDITORIAL PAGE /******************/
+
+/****************************************************/
+
+.editorial-page {
+    text-align: center;
+}
+
+.editorial-page p:first-of-type {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.editorial-page p.title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.editorial-page p.subtitle {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.editorial-page p {
+    text-align: justify;
+}
+
+.editorial-page img {
+    border: 4px solid #000;
+    width: 225px;
+}
+
+.editorial-page img:nth-of-type(odd) {
+    float: left;
+}
+
+.editorial-page img:nth-of-type(even) {
+    float: right;
+}
+
+.editorial-page .col70 {
+    max-width: 500px;
+    margin: 0 auto;
+    float: none;
+    /*font-size: 125%;*/
+}
+
+.editorial-page .content {
+    margin: 0 auto;
+}
+
+.editorial-page .btn, .splash-page-container .btn {
+    border: 4px solid #000;
+    display: inline-block;
+    padding: 5px 35px;
+    font-size: 150%;
+    margin: 3em auto;
+    text-align: center;
+}
+
+.sign-up .col50 {
+    text-align: center;
+}
+
+/****************************************************/
+
+/******************* MARKING PAGE /******************/
+
+/****************************************************/
+
+.marking-page p {
+    /*font-size: 120%;*/
+}
+
+.marking-page .col100 .title {
+    text-align: center;
+    position: relative;
+    margin: 3em auto;
+    text-align: center;
+    font-size: 155%;
+}
+
+.marking-page .col100 .sub-text {
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'AlbertusMTStd';
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200%;
+    top: -2.7em;
+}
+
+.marking-page .col50 {
+    padding: 0 15px;
+}
+
+.marking-page .col20, .marking-page .col60 {
+    border: 2px solid #000;
+    padding: 15px;
+}
+
+.marking-page .col20 {
+    height: 100%;
+}
+
+.marking-page table {
+    width: 100%;
+    border: 4px solid #000;
+    text-align: left;
+}
+
+.marking-page td {
+    padding: 10px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.marking-page input.submit {
+    border: 4px solid #000;
+    margin: 1.5em auto;
+    background-color: #fff;
+    outline: none;
+    display: inline;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.marking-page .submit {
+    padding: 5px 25px;
+    font-size: 150%;
+    text-align: center;
+
+}
+
+.marking-page .submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.marking-page td:nth-of-type(2) {
+    text-align: left;
+}
+
+.marking-form {
+    text-align: center;
+}
+
+.marking-page .feedback {
+    border: 4px solid #000;
+    text-align: left;
+    margin-top: 2em;
+    font-size: 100%;
+    padding: 2em;
+}
+
+.marking-page .feedback p {
+    font-size: 100%;
+
+}
+
+.marking-page .feedback p:first-of-type {
+    margin-top: 0;
+
+}
+
+.marking-page .pop-up {
+    border: 4px solid #000;
+    background-color: #fff;
+    padding: 2em;
+    width: 50%;
+    text-align: center;
+    max-width: 500px;
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+}
+
+.marking-page .pop-up img {
+    display: block;
+    max-width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.marking-page .pop-up p {
+    margin: 2em auto;
+}
+
+.marking-page .back-btn {
+    border: 4px solid #000;
+    margin: 1em;
+    display: inline;
+    padding: 10px 35px;
+    font-size: 130%;
+}
+
+/****************************************************/
+
+/******************* MARKING INTERIM /******************/
+
+/****************************************************/
+
+.marking-interim {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 500px;
+}
+
+/****************************************************/
+
+/******************* TERMS PAGE /******************/
+
+/****************************************************/
+
+.terms-page .col70 {
+    max-width: 1025px;
+    float: none;
+    margin: 0 auto;
+}
+
+.terms-page .col50 {
+    padding: 0 1.5em;
+}
+
+.terms-page .col100 .title {
+    text-align: center;
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 155%;
+}
+
+.terms-page .col100 .sub-text {
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'AlbertusMTStd';
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200%;
+    top: -2.7em;
+}
+
+/****************************************************/
+
+/******************* ENTRY PAGE /******************/
+
+/****************************************************/
+
+.simple-header .hm-logo {
+    max-width: 150px;
+    margin: 5em auto;
+}
+
+.entry-page {
+    max-width: 42em;
+    margin: 0 auto;
+    font-family: 'NHaasGroteskTXStd-45Rg', sans-serif;
+    position: relative;
+    top: -3em;
+}
+
+.entry-page .content {
+    border: 4px solid #000;
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.entry-page p:first-of-type {
+    margin-top: 0;
+}
+
+.entry-page h1 {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 130%;
+}
+
+.entry-page .button {
+    border: 4px solid #000;
+    background: #fff;
+    padding: 7px 15px;
+    text-align: center;
+    display: block;
+    margin-left: 3%;
+    width: 31.33%;
+    float: left;
+    font-size: 125%;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+}
+
+.entry-page dd, .entry-page dt, .entry-page .zend_form, .entry-page form {
+    display: inline;
+}
+
+.entry-page .first-button {
+    margin-left: 0;
+}
+
+.entry-page .col33:first-of-type {
+    margin-left: 0;
+}
+
+.entry-page .results {
+    margin-top: 75px;
+}
+
+/****************************************************/
+
+/**************** COMP  SPLASH PAGE  /***************/
+
+/****************************************************/
+
+.comp-splash-page ul.circle-nav {
+    width: 600px;
+}
+
+.comp-splash-page .circle-nav li {
+    line-height: 1.3;
+    overflow: hidden;
+    position: relative;
+    width: 125px;
+    height: 125px;
+    margin: 0 10%;
+}
+
+.comp-splash-page .circle-nav li:nth-of-type(1) {
+    background-image: url('/images/home-circle-01.png');
+}
+
+.comp-splash-page .circle-nav li:nth-of-type(2) {
+    background-image: url('/images/home-circle-04.png');
+}
+
+.comp-splash-page .circle-nav li p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.comp-splash-page h1 {
+    padding: 15px 45px;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    font-size: 300%;
+}
+
+.comp-splash-page .background-image {
+    height: 600px;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.comp-splash-page .enter-button {
+    background-image: url('/images/home-circle-04.png');
+    width: 135px;
+    height: 135px;
+    background-size: contain;
+    color: #fff;
+    position: absolute;
+    line-height: 135px;
+    left: 50%;
+    top: 70%;
+    font-size: 120%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+
+}
+
+.comp-splash-page {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.comp-splash-page p {
+    max-width: 22em;
+    margin: 25px auto;
+}
+
+a.enter-here {
+    font-size: 130%;
+}
+
+/****************************************************/
+
+/**************** COMP  START PAGE  /***************/
+
+/****************************************************/
+
+.comp-start-page {
+    text-align: center;
+    /*font-size: 120%;*/
+}
+
+.comp-start-page form {
+    display: inline-block;
+}
+
+.comp-start-page .background-image {
+    height: 600px;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 3em auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.comp-start-page .col25, .comp-start-page .col50 {
+    height: 100%;
+}
+
+.comp-start-page .col50 img {
+    text-align: center;
+    margin: 2em auto;
+}
+
+.comp-start-page .col50 {
+    text-align: center;
+}
+
+.comp-start-page .comp-info p {
+    margin: 0 auto;
+}
+
+.comp-start-page .credits p {
+    margin-top: 100px;
+}
+
+/*TODO*/
+/*
+.comp-start-page .circle-timer {
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    border-radius: 150px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+*/
+
+.comp-start-page h2 {
+    max-width: 20em;
+    margin: 1em auto;
+    font-size: 130%;
+}
+
+.comp-start-page .btn {
+    padding: 10px 15px;
+    border: 4px solid #000;
+    background-color: #fff;
+    text-align: center;
+    margin: 1em auto;
+    display: inline-block;
+}
+
+.comp-start-page h1.btn {
+    margin-bottom: 0;
+    font-size: 250%;
+}
+
+.comp-start-page {
+    margin-bottom: 50px;
+}
+
+/****************************************************/
+
+/*************** COMP SUBMISSION PAGE  /**************/
+
+/****************************************************/
+
+.comp-sub-page {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.comp-sub-page p {
+    margin: 0 auto;
+}
+
+.comp-sub-page .comp-sub-info {
+    margin: 50px auto;
+    font-size: 120%;
+}
+
+.comp-sub-page .about-splat {
+    background-image: url('/images/sub-ink.png');
+    width: 556px;
+    height: 480px;
+    background-size: contain;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.comp-sub-page .about-splat-container {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    color: #fff;
+}
+
+.comp-sub-page .about-splat-container p {
+    text-align: left;
+}
+
+.comp-sub-page .about-splat-container h1 {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    font-size: 150%;
+}
+
+.comp-sub-page .btn {
+    padding: 10px 15px;
+    border: 4px solid #000;
+    background-color: #fff;
+    text-align: center;
+    margin: 1em auto;
+    display: inline-block;
+    font-size: 150%;
+}
+
+/****************************************************/
+
+/************ SINGLE SCROLL SPLASH PAGE /************/
+
+/****************************************************/
+
+.splash-page-container .col100 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.splash-page-container .article > img {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    display: block;
+}
+
+/*.col40 {
+    width: 40%;
+}
+.col60 {
+    width: 60%;
+}*/
+.splash-page-container .col40, .splash-page-container .col60, .splash-page-container .col50 {
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.splash-page-container .article {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 80%;
+}
+
+.splash-page-container .sign-up .article {
+    text-align: center;
+    width: 30%;
+    border: 4px solid #000;
+    font-size: 125%;
+    text-align: center;
+    width: 16em;
+    padding: 1em;
+}
+
+.sign-up .article:hover a {
+    color: #000;
+
+}
+
+.splash-page-container .col100:nth-of-type(2) {
+    top: 100%;
+}
+
+.splash-page-container .col100:nth-of-type(3) {
+    top: 200%;
+}
+
+.splash-page-container .col100:nth-of-type(4) {
+    top: 300%;
+}
+
+.splash-page-container .col100:nth-of-type(5) {
+    top: 400%;
+}
+
+.splash-page-container .col100:nth-of-type(6) {
+    top: 500%;
+}
+
+.splash-page-container .col100:nth-of-type(7) {
+    top: 600%;
+}
+
+.splash-page-container .grey-text {
+    opacity: 0.5;
+    text-align: center;
+    font-family: 'AlbertusMTStd';
+    position: relative;
+    max-width: 16em;
+    min-width: 8em;
+    margin: 0 auto;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 135%;
+    text-align: center;
+}
+
+.splash-page-container .details {
+    padding-left: 55px;
+    font-size: 130%;
+}
+
+.splash-page-container .bullet-point {
+    background-image: url('/images/home-circle-01.png');
+    width: 45px;
+    height: 45px;
+    background-size: contain;
+    color: #fff;
+    /*	margin: 0 4%;*/
+    line-height: 45px;
+    font-family: 'AlbertusMTStd';
+    font-size: 150%;
+    border-radius: 45px;
+    float: left;
+    background-color: #000;
+    text-align: center;
+}
+
+/****************************************************/
+
+/******************* FORM EXAMPLE /*******************/
+
+/****************************************************/
+
+.form-example-page {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form-example-page h1, h2, h3, h4 {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+}
+
+.form-example-page input[type=submit] {
+    padding: 5px 15px;
+    border: #000 solid 4px;
+    background-color: #fff;
+    font-size: 150%;
+}
+
+.form-example-page textarea {
+    padding: 5px 15px;
+    border: #000 solid 4px;
+    background-color: #fff;
+}
+
+.form-example-page label {
+    margin: 1.5em auto;
+    text-align: center;
+}
+
+.form-example-page input[type=text], .form-example-page input[type=password] {
+    padding: 5px 15px;
+    border: #000 solid 4px;
+    background-color: #fff;
+}
+
+.form-example-page dd {
+    margin: 0.5em auto;
+}
+
+/* Countdowns */
+.countdown {
+    height: 185px;
+}
+
+.timer-wrap {
+    width: 185px;
+    height: 185px;
+}
+
+.chart-canvas {
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari 3.1+ */
+    -moz-transform: rotate(-90deg); /* Firefox 3.5-15 */
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -o-transform: rotate(-90deg); /* Opera 10.50-12.00 */
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.timer_digits {
+    height: 185px;
+    position: absolute;
+    text-align: center;
+    width: 185px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+}
+
+.timer_digits:hover {
+    opacity: 1;
+}
+
+.timer_digits p {
+    background: none repeat scroll 0 0 #666666;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 76px;
+    color: #EFEFEF;
+    font-size: 12px;
+    opacity: 0.9;
+    text-align: center;
+    width: 165px;
+}
+
+#week_timer_out {
+    width: 185px;
+    height: 185px;
+    background-image: url(/images/week-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#week_timer_in {
+    position: absolute;
+    background-image: url(/images/week-overlay.png);
+    background-position: left top;
+    height: 185px;
+}
+
+.smooth {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    background-image: url(/images/edges.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* Admin/ default tables */
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.1em 0.2em;
+    border: 1px solid grey;
+    vertical-align: top;
+}
+
+
+/* Simple extra formatting */
+
+.error {
+    background: #f99;
+    padding: 2px 4px;
+}
+
+.errors li {
+    color: #900;
+    font-weight: 900;
+}
+
+.success {
+    background: #9f9;
+    padding: 2px 4px;
+}
+
+#highlight {
+    background: #ccc;
+    display: inline;
+}
+
+.active-archive-link {
+    color: #f00 !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.minor {
+    font-size: 10px;
+}
+
+.top-bar {
+    background: #000;
+    color: #fff;
+    padding: 2px 5px;
+    margin: 0;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+.special-nav {
+    display: inline;
+}
+
+.special-nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+/* Cookie bar plugin - http://www.primebox.co.uk/projects/jquery-cookiebar/ */
+#cookie-bar {background:#111111; height:24px; line-height:24px; color:#eeeeee; text-align:center; padding:3px 0;}
+#cookie-bar.fixed {position:fixed; bottom:0; left:0; width:100%;}
+#cookie-bar p {margin:0; padding:0;}
+#cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background:#007700;}
+#cookie-bar .cb-enable:hover {background:#009900;}
+#cookie-bar .cb-disable {background:#990000;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {background:#0033bb;}
+#cookie-bar .cb-policy:hover {background:#0055dd;}
+
+
+
+
+
+
+/*ALTERATIONS*/
+
+
+.about-page .about-splat ~ .about-splat {
+margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
