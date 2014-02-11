@@ -2091,6 +2091,10 @@ th, td {
 
 /*ALTERATIONS*/
 
+/*About
+
+- I think there should be a bit more space between the ink splash and the about text
+- All three ink splashes should have equal spacing between them.*/
 
 .about-page .about-splat ~ .about-splat {
     margin-top: 150px; /*CHANGE*/
@@ -2108,8 +2112,71 @@ th, td {
     margin-left: 2em; /*CHANGE*/
 }
 
+/*
+How it works
+
+- Map image too big needs to be a bit smaller (by 20% maybe?)*/
+
+.splash-page-container > .col100 img {
+    padding: 5em; /*CHANGE*/
+}
+
+/*Enter
+
+- Members/New Members the text here is too big.
+- Login/Register the text here is too big.*/
+
+.login-page h1 {
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    text-align: center;
+    font-size: 150%; /*CHANGE*/
+}
 
 
+/*Shownotes
+
+- the voice and memory of the tribe/Shownotes type too big.
+- ????? When a long note is clicked could it highlight in red rather than yellow? (Red is the only secondary colour used throughout the whole site)
+
+---*/
+
+.archive-page .col100 .sub-text  {
+opacity: 0.3;
+text-align: center;
+font-family: 'AlbertusMTStd';
+position: relative;
+margin: 0 auto;
+font-size: 180%; /*CHANGE*/
+top: -2.7em;
+}
+
+.archive-page .col100 .title {
+    text-align: center;
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 145%; /*CHANGE*/
+}
+
+/*- Navigation (Home/Enter/About etc): I don't think this should run across two lines, its looks a bit messy in my opinion.
+*/
+.top-links li {
+display: inline;
+margin: 0 10px;
+padding: 0;
+}
+
+
+/*<ul class="top-links">
+                    <li>Home</li>
+                    <li>Enter</li>
+                    <li>Chronicle</li>
+                    <li>Ephemera</li>
+                    <li>ShowNotes</li>
+                    <li>How it Works</li>
+                    <li>About</li>
+                </ul>
+*/
 
 
 
