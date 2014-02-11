@@ -834,8 +834,8 @@ a#preview-title {
 }
 
 /*.settings .settings-inside {
-	border: 4px solid #000;
-	overflow: auto;
+    border: 4px solid #000;
+    overflow: auto;
 }*/
 
 .settings h1, .settings h2, .settings h3 {
@@ -1877,7 +1877,7 @@ a.enter-here {
     height: 45px;
     background-size: contain;
     color: #fff;
-    /*	margin: 0 4%;*/
+    /*  margin: 0 4%;*/
     line-height: 45px;
     font-family: 'AlbertusMTStd';
     font-size: 150%;
@@ -2187,12 +2187,17 @@ padding: 0;
 }
 
 .col33.accounts-tab {
-    border-bottom: 0;
-    border-left: 0;
+    border-bottom: 0; /*CHANGE*/
+    border-left: 0; /*CHANGE*/
+    border-right: 0;
 }
 
 .settings .active {
-    box-shadow: none;
+    box-shadow: none; /*CHANGE*/
+}
+
+.settings .notes-tab {
+    border-left: 4px solid #000; /*CHANGE*/
 }
 
 .profile-page ol {
