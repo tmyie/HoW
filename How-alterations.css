@@ -2178,8 +2178,27 @@ padding: 0;
                 </ul>
 */
 
+/*- Entries/Following/Followers need to be much smaller*/
 
+.counter-col {
+    font-size: 125%;
+    font-family: 'NHaasGroteskTXStd-65Md', sans-serif;
+    margin-bottom: 15px; /*CHANGE*/
+}
 
+.col33.accounts-tab {
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.settings .active {
+    box-shadow: none;
+}
+
+.profile-page ol {
+    font-size: 125%;  /*CHANGE*/
+    margin-top: 50px;
+}
 
 
 
