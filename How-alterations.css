@@ -2093,7 +2093,19 @@ th, td {
 
 
 .about-page .about-splat ~ .about-splat {
-margin-top: 150px;
+    margin-top: 150px; /*CHANGE*/
+}
+
+.about-page .about-splat {
+    background-image: url('/images/about-splat.jpg');
+    width: 650px;
+    height: 495px;
+    background-size: contain;
+    position: relative;
+    top: -5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 2em; /*CHANGE*/
 }
 
 
