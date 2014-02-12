@@ -419,19 +419,46 @@ a#preview-title {
 }
 
 .footer {
-    overflow: auto;
     font-size: 80%;
 }
 
 .footer .col25 {
     text-align: center;
-    padding: 5%;
+      display: table-cell;
+    vertical-align: bottom;
+    height: 400px;
+    float: none;
+}
+
+
+.footer .col25 {
+    width: 25%;
+    background-color: red;
+    font-size: 90%;
+    height: 100px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.footer .col25 > ul, .col33 > p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer .col25 img.logo {
+    max-height: 3em
 }
 
 .footer .col25 img {
-    max-height: 3em;
+    max-height: 2em;
     vertical-align: middle;
 }
+
+.footer .col25 > ul, .footer .col25 > p {
+    margin-bottom: 0; padding: 0;
+    background-color: blue;
+}
+
 
 /*INPUTS*/
 
